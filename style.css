@@ -59,3 +59,28 @@ footer{
     top: 90%;
     font-weight: bolder;
 }
+@media (max-width: 480px){
+    .calculator form input{
+        border: 0;
+        outline: 0;
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+        box-shadow: -8px -8px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.2);
+        background: transparent;
+        font-size: 10px;
+        color: #fff;
+        cursor: pointer;
+        margin: 5px;
+        background-color: #125289;
+    }
+
+    form input.equal{
+        width: 85px;
+    }
+
+    footer{
+        font-size: smaller;
+        top: 80%;
+    }
+}
